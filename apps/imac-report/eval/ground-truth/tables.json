@@ -1,0 +1,100 @@
+[
+  {
+    "page": 10,
+    "title": "Greenhouse gas emissions",
+    "columns": [
+      "Greenhouse gas emissions",
+      "iMac (two ports) 256GB"
+    ],
+    "rows": [
+      [
+        "Total product footprint",
+        "346 kg CO2e"
+      ],
+      [
+        "Apple emissions from utility-purchased electricity (scope 2)",
+        "0 kg CO2e"
+      ],
+      [
+        "Life cycle product emissions (scope 3)",
+        "346 kg CO2e"
+      ],
+      [
+        "• Production",
+        "50%"
+      ],
+      [
+        "• Transportation",
+        "5%"
+      ],
+      [
+        "• Product use",
+        "45%"
+      ],
+      [
+        "• End-of-life processing",
+        "<1%"
+      ],
+      [
+        "GHG reductions achieved",
+        "↓>20%"
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "title": "Configuration",
+    "columns": [
+      "Configuration",
+      "iMac (four ports) 512GB"
+    ],
+    "rows": [
+      [
+        "iMac (four ports) 512GB",
+        "391 kg CO2e"
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "title": "Power consumption for iMac",
+    "columns": [
+      "Mode",
+      "100V",
+      "115V",
+      "230V"
+    ],
+    "rows": [
+      [
+        "Off",
+        "0.27W",
+        "0.27W",
+        "0.29W"
+      ],
+      [
+        "Sleep",
+        "0.56W",
+        "0.57W",
+        "0.59W"
+      ],
+      [
+        "Idle—Display On",
+        "20.5W",
+        "20.6W",
+        "20.9W"
+      ],
+      [
+        "Power adapter, no load",
+        "0.10W",
+        "0.10W",
+        "0.12W"
+      ],
+      [
+        "Power adapter efficiency",
+        "91.1%",
+        "91.5%",
+        "91.9%"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "about": "The PDF's bookmarks only cover the financial statements (p. 33 on). These entries give the narrative report (pp. 3–31) its sections. Titles are the printed headings; page is the 1-based PDF page. \"at\": \"top\" starts the section at the top of the page — p. 4 prints its heading last in the text layer. Where a page has no printed heading in the text layer, the title says what the pages are.",
+  "entries": [
+    { "title": "Letter of Transmittal", "page": 3 },
+    { "title": "A Message from the Acting Deputy Director", "page": 4, "at": "top" },
+    { "title": "About GPO", "page": 7 },
+    { "title": "History", "page": 8 },
+    { "title": "GPO and Congress", "page": 11 },
+    { "title": "GPO By the Numbers FY 2018", "page": 14 },
+    { "title": "GPO and Federal Agencies", "page": 16 },
+    { "title": "GPO and Open, Transparent Government", "page": 19 },
+    { "title": "Publication and Information Sales Program", "page": 23 },
+    { "title": "Agency Distribution Services (ADS) Program", "page": 23 },
+    { "title": "GPO's Finances", "page": 24 },
+    { "title": "FY 2018 Financial Results", "page": 25 },
+    { "title": "Financial Statements (Summary)", "page": 26 },
+    { "title": "GPO Leadership", "page": 28 },
+    { "title": "Consolidated Financial Statements", "page": 31 }
+  ]
+}

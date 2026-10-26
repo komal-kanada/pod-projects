@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "document": "gpo-annual-report.pdf",
+  "questions": [
+    {
+      "id": "p01",
+      "question": "How many depository libraries did GPO staff visit in FY 2018?",
+      "source": "provided",
+      "category": "factual",
+      "expected_answer": "GPO staff visited 166 depository libraries in 25 states in FY 2018.",
+      "must_include": [
+        "166"
+      ],
+      "must_not_include": [
+        "610"
+      ],
+      "expected_pages": [
+        5,
+        21
+      ],
+      "notes": "Stated in the Director’s message (p.5) and under the FDLP (p.21). The 3-year total (over 610) is extra information the mentor bar rules out."
+    },
+    {
+      "id": "p02",
+      "question": "What new digital system replaced FDsys, and when was it fully deployed?",
+      "source": "provided",
+      "category": "factual",
+      "expected_answer": "govinfo (www.govinfo.gov) replaced FDsys. Its full-scale deployment took place over FY 2018: it came out of beta in December 2017, ran in parallel with FDsys through 2018, and FDsys was scheduled to be completely retired and replaced by govinfo in December 2018.",
+      "must_include": [
+        "govinfo",
+        "FY 2018 or December 2018"
+      ],
+      "must_not_include": [],
+      "expected_pages": [
+        4,
+        22
+      ],
+      "notes": "p.4: full-scale deployment of govinfo during FY 2018; p.22: out of beta Dec 2017, FDsys to be fully replaced Dec 2018. Either date framing is acceptable if it is what the cited page says."
+    },
+    {
+      "id": "p03",
+      "question": "How much did GPO procure in printing and information products in FY 2018 on behalf of federal agencies?",
+      "source": "provided",
+      "category": "numeric",
+      "expected_answer": "More than $375 million worth of printing and other information products (about 84,000 orders); the By the Numbers page gives $375.7 million.",
+      "must_include": [
+        "$375 million"
+      ],
+      "must_not_include": [
+        "$341.5 million",
+        "$874"
+      ],
+      "expected_pages": [
+        5,
+        14
+      ],
+      "notes": "$341.5 million is the cost of procured work (an expense) and $874 million is total revenue — both are wrong answers."
+    },
+    {
+      "id": "oos01",
+      "question": "What is the population of Canada?",
+      "source": "added",
+      "category": "out_of_scope",
+      "expected_answer": null,
+      "must_include": [],
+      "expected_pages": [],
+      "notes": "Unrelated to the report — must refuse."
+    },
+    {
+      "id": "oos02",
+      "question": "Who won the 2022 FIFA World Cup?",
+      "source": "added",
+      "category": "out_of_scope",
+      "expected_answer": null,
+      "must_include": [],
+      "expected_pages": [],
+      "notes": "Unrelated to the report — must refuse."
+    },
+    {
+      "id": "oos03",
+      "question": "What is the recipe for a classic margherita pizza?",
+      "source": "added",
+      "category": "out_of_scope",
+      "expected_answer": null,
+      "must_include": [],
+      "expected_pages": [],
+      "notes": "Unrelated to the report — must refuse."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# build output
+.next
+out
+build
+dist
+*.tsbuildinfo
+next-env.d.ts
+
+# tooling
+.turbo
+.vercel
+
+# env — never commit secrets
+.env
+.env*.local
+
+# OS / editor
+.DS_Store
+*.pem
+npm-debug.log*
+
+# interview-prep still lives in its own repo (asfaqe-bacancy/lastminprep).
+# It moves into apps/ in Step 2, after a baseline test. Until then the
+# monorepo must not touch it.
+/interview-prep/
+/brag
+apps/gpo-report/brag-output/composition/.hyperframes/artifacts/snapshots/36e5114c-ec53-4ba1-a879-782d4a3a44cd/frame-00-at-1.5s.png
+
+# /brag launch-video runs (renders + compositions) stay local
+brag-output/
+brag-output-*/

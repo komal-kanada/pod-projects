@@ -1,0 +1,154 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "p01",
+      "question": "How much less energy does iMac use compared to the ENERGY STAR requirement?",
+      "source": "provided",
+      "category": "chart",
+      "answer_location": [
+        "p.7 chart: Energy consumption of ENERGY STAR–rated products"
+      ],
+      "expected_answer": "iMac uses 58 percent less energy than the ENERGY STAR requirement.",
+      "must_include": [
+        "58 percent"
+      ],
+      "must_not_include": [
+        "25 percent"
+      ],
+      "expected_values": [
+        {
+          "value": "58",
+          "unit": "%"
+        }
+      ],
+      "expected_elements": [
+        {
+          "page": 7,
+          "type": "chart"
+        },
+        {
+          "page": 7,
+          "type": "callout"
+        }
+      ],
+      "notes": "25 percent is ENERGY STAR’s own threshold (top 25% of devices), not the answer."
+    },
+    {
+      "id": "p02",
+      "question": "What is the total carbon footprint of the iMac, and how much of that comes from product use versus manufacturing?",
+      "source": "provided",
+      "category": "table",
+      "answer_location": [
+        "p.10 Greenhouse gas emissions breakdown"
+      ],
+      "expected_answer": "346 kg CO2e for iMac (two ports) 256GB: production (manufacturing) 50 percent and product use 45 percent (transportation 5 percent, end-of-life under 1 percent).",
+      "must_include": [
+        "346 kg CO2e",
+        "50%",
+        "45%"
+      ],
+      "must_not_include": [
+        "445 kg"
+      ],
+      "expected_values": [
+        {
+          "value": "346",
+          "unit": "kg CO2e"
+        },
+        {
+          "value": "50",
+          "unit": "%"
+        },
+        {
+          "value": "45",
+          "unit": "%"
+        }
+      ],
+      "expected_elements": [
+        {
+          "page": 10,
+          "type": "table"
+        },
+        {
+          "page": 10,
+          "type": "chart"
+        }
+      ],
+      "notes": "445 kg is the business-as-usual baseline (p.2), not the footprint. 391 kg is the four-port 512GB configuration — acceptable only if labelled as that configuration."
+    },
+    {
+      "id": "p03",
+      "question": "What material is the iMac stand made from, and what percentage of it is recycled?",
+      "source": "provided",
+      "category": "callout",
+      "answer_location": [
+        "p.1 callout",
+        "p.4 Design and Source"
+      ],
+      "expected_answer": "Aluminum — the stand uses 100 percent recycled aluminum.",
+      "must_include": [
+        "aluminum",
+        "100 percent recycled"
+      ],
+      "must_not_include": [],
+      "expected_values": [
+        {
+          "value": "100",
+          "unit": "%"
+        }
+      ],
+      "expected_elements": [
+        {
+          "page": 1,
+          "type": "callout"
+        },
+        {
+          "page": 4,
+          "type": "text"
+        },
+        {
+          "page": 2,
+          "type": "text"
+        }
+      ],
+      "notes": "Stated on pp.1, 2 and 4."
+    },
+    {
+      "id": "oos01",
+      "question": "What is the battery life of the iPhone 15?",
+      "source": "added",
+      "category": "out_of_scope",
+      "answer_location": [],
+      "expected_answer": null,
+      "must_include": [],
+      "expected_values": [],
+      "expected_elements": [],
+      "notes": "Another Apple product — must refuse."
+    },
+    {
+      "id": "oos02",
+      "question": "Who won the 2022 FIFA World Cup?",
+      "source": "added",
+      "category": "out_of_scope",
+      "answer_location": [],
+      "expected_answer": null,
+      "must_include": [],
+      "expected_values": [],
+      "expected_elements": [],
+      "notes": "Unrelated — must refuse."
+    },
+    {
+      "id": "oos03",
+      "question": "What is the recipe for a classic margherita pizza?",
+      "source": "added",
+      "category": "out_of_scope",
+      "answer_location": [],
+      "expected_answer": null,
+      "must_include": [],
+      "expected_values": [],
+      "expected_elements": [],
+      "notes": "Unrelated — must refuse."
+    }
+  ]
+}

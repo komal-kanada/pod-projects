@@ -1,0 +1,542 @@
+{
+  "$comment": "Hand-checked against the contents pages (PDF pp. 7-13; printed page n = PDF page n + 22). Replaces the PDF bookmarks, which are flat, file boxes as chapters, and start South Asia a page early.",
+  "entries": [
+    {
+      "title": "Summary of Contents",
+      "page": 7,
+      "level": 1,
+      "kind": "front_matter"
+    },
+    {
+      "title": "Contents",
+      "page": 9,
+      "level": 1,
+      "kind": "front_matter"
+    },
+    {
+      "title": "Acknowledgments",
+      "page": 15,
+      "level": 1,
+      "kind": "front_matter"
+    },
+    {
+      "title": "Foreword",
+      "page": 17,
+      "level": 1,
+      "kind": "front_matter"
+    },
+    {
+      "title": "Executive Summary",
+      "page": 19,
+      "level": 1,
+      "kind": "front_matter"
+    },
+    {
+      "title": "Abbreviations",
+      "page": 21,
+      "level": 1,
+      "kind": "front_matter"
+    },
+    {
+      "title": "Chapter 1. Global Outlook",
+      "page": 23,
+      "level": 1
+    },
+    {
+      "title": "Summary",
+      "page": 25,
+      "level": 2
+    },
+    {
+      "title": "Box 1.1 How much will AI affect global growth?",
+      "page": 30,
+      "level": 3,
+      "kind": "box",
+      "pageEnd": 35
+    },
+    {
+      "title": "Global context",
+      "page": 35,
+      "level": 2
+    },
+    {
+      "title": "Global trade",
+      "page": 35,
+      "level": 3
+    },
+    {
+      "title": "Commodity markets",
+      "page": 36,
+      "level": 3
+    },
+    {
+      "title": "Global inflation",
+      "page": 37,
+      "level": 3
+    },
+    {
+      "title": "Global financial developments",
+      "page": 38,
+      "level": 3
+    },
+    {
+      "title": "Major economies: Recent developments and outlook",
+      "page": 39,
+      "level": 2
+    },
+    {
+      "title": "Advanced economies",
+      "page": 39,
+      "level": 3
+    },
+    {
+      "title": "China",
+      "page": 41,
+      "level": 3
+    },
+    {
+      "title": "Emerging market and developing economies",
+      "page": 41,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 41,
+      "level": 3
+    },
+    {
+      "title": "EMDE outlook",
+      "page": 42,
+      "level": 3
+    },
+    {
+      "title": "LICs outlook",
+      "page": 43,
+      "level": 3
+    },
+    {
+      "title": "Box 1.2 Unlocking private investment",
+      "page": 44,
+      "level": 3,
+      "kind": "box",
+      "pageEnd": 50
+    },
+    {
+      "title": "Per capita income growth",
+      "page": 51,
+      "level": 3
+    },
+    {
+      "title": "Global outlook and risks",
+      "page": 52,
+      "level": 2
+    },
+    {
+      "title": "Risks to the outlook",
+      "page": 52,
+      "level": 3
+    },
+    {
+      "title": "Policy challenges",
+      "page": 56,
+      "level": 2
+    },
+    {
+      "title": "Key global challenges",
+      "page": 56,
+      "level": 3
+    },
+    {
+      "title": "EMDE monetary and financial policy challenges",
+      "page": 58,
+      "level": 3
+    },
+    {
+      "title": "EMDE fiscal policy challenges",
+      "page": 58,
+      "level": 3
+    },
+    {
+      "title": "EMDE structural policy challenges",
+      "page": 60,
+      "level": 3
+    },
+    {
+      "title": "References",
+      "page": 63,
+      "level": 2
+    },
+    {
+      "title": "Chapter 2. Regional Outlooks",
+      "page": 69,
+      "level": 1
+    },
+    {
+      "title": "Recent developments",
+      "page": 71,
+      "level": 2
+    },
+    {
+      "title": "Outlook",
+      "page": 72,
+      "level": 2
+    },
+    {
+      "title": "Risks",
+      "page": 74,
+      "level": 2
+    },
+    {
+      "title": "Box 2.1 Low-income countries: Recent developments and outlook",
+      "page": 76,
+      "level": 2,
+      "kind": "box",
+      "pageEnd": 80
+    },
+    {
+      "title": "East Asia and Pacific",
+      "page": 81,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 81,
+      "level": 3
+    },
+    {
+      "title": "Outlook",
+      "page": 81,
+      "level": 3
+    },
+    {
+      "title": "Europe and Central Asia",
+      "page": 84,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 84,
+      "level": 3
+    },
+    {
+      "title": "Outlook",
+      "page": 84,
+      "level": 3
+    },
+    {
+      "title": "Latin America and the Caribbean",
+      "page": 88,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 88,
+      "level": 3
+    },
+    {
+      "title": "Outlook",
+      "page": 88,
+      "level": 3
+    },
+    {
+      "title": "Middle East, North Africa, Afghanistan, and Pakistan",
+      "page": 92,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 92,
+      "level": 3
+    },
+    {
+      "title": "Outlook",
+      "page": 92,
+      "level": 3
+    },
+    {
+      "title": "South Asia",
+      "page": 96,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 96,
+      "level": 3
+    },
+    {
+      "title": "Outlook",
+      "page": 96,
+      "level": 3
+    },
+    {
+      "title": "Sub-Saharan Africa",
+      "page": 99,
+      "level": 2
+    },
+    {
+      "title": "Recent developments",
+      "page": 99,
+      "level": 3
+    },
+    {
+      "title": "Outlook",
+      "page": 99,
+      "level": 3
+    },
+    {
+      "title": "References",
+      "page": 103,
+      "level": 2
+    },
+    {
+      "title": "Chapter 3. A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs",
+      "page": 107,
+      "level": 1
+    },
+    {
+      "title": "Introduction",
+      "page": 109,
+      "level": 2
+    },
+    {
+      "title": "Key trends in EMDE government debt and interest rates",
+      "page": 112,
+      "level": 2
+    },
+    {
+      "title": "Impact of EMDE government debt on interest rates",
+      "page": 113,
+      "level": 2
+    },
+    {
+      "title": "Non-linear relationship between debt and interest rates",
+      "page": 114,
+      "level": 3
+    },
+    {
+      "title": "Box 3.1 The costs of hidden debt",
+      "page": 116,
+      "level": 3,
+      "kind": "box",
+      "pageEnd": 119
+    },
+    {
+      "title": "Contribution of rising government debt to EMDE interest rates",
+      "page": 120,
+      "level": 3
+    },
+    {
+      "title": "Potential fiscal savings from debt reduction",
+      "page": 121,
+      "level": 3
+    },
+    {
+      "title": "The role of advanced economy debt and bond yields",
+      "page": 121,
+      "level": 3
+    },
+    {
+      "title": "Role of vulnerabilities in the impact of EMDE debt on interest rates",
+      "page": 122,
+      "level": 2
+    },
+    {
+      "title": "History of past defaults",
+      "page": 122,
+      "level": 3
+    },
+    {
+      "title": "Credit ratings and frontier market status",
+      "page": 123,
+      "level": 3
+    },
+    {
+      "title": "Global financing environment",
+      "page": 124,
+      "level": 3
+    },
+    {
+      "title": "Liquidity and rollover risk",
+      "page": 124,
+      "level": 3
+    },
+    {
+      "title": "Inflation",
+      "page": 124,
+      "level": 3
+    },
+    {
+      "title": "Governance and institutional quality",
+      "page": 124,
+      "level": 3
+    },
+    {
+      "title": "Country illustrations of debt-interest rate dynamics",
+      "page": 125,
+      "level": 2
+    },
+    {
+      "title": "Policy implications",
+      "page": 127,
+      "level": 2
+    },
+    {
+      "title": "Annex 3.1 Methodology and data",
+      "page": 130,
+      "level": 2
+    },
+    {
+      "title": "Annex 3.2 Alternative models",
+      "page": 132,
+      "level": 2
+    },
+    {
+      "title": "References",
+      "page": 139,
+      "level": 2
+    },
+    {
+      "title": "Chapter 4. Navigating Volatility: Fiscal Policy and Commodity Price Swings",
+      "page": 143,
+      "level": 1
+    },
+    {
+      "title": "Introduction",
+      "page": 145,
+      "level": 2
+    },
+    {
+      "title": "Fiscal indicators in commodity exporters since 2000",
+      "page": 149,
+      "level": 2
+    },
+    {
+      "title": "Fiscal revenues",
+      "page": 150,
+      "level": 3
+    },
+    {
+      "title": "Fiscal expenditure and balances",
+      "page": 151,
+      "level": 3
+    },
+    {
+      "title": "Public debt",
+      "page": 152,
+      "level": 3
+    },
+    {
+      "title": "Fiscal policy volatility in commodity exporters",
+      "page": 153,
+      "level": 3
+    },
+    {
+      "title": "Fiscal procyclicality in commodity exporters",
+      "page": 155,
+      "level": 2
+    },
+    {
+      "title": "Measuring fiscal procyclicality",
+      "page": 155,
+      "level": 3
+    },
+    {
+      "title": "Output cycles versus commodity price movements",
+      "page": 156,
+      "level": 3
+    },
+    {
+      "title": "Dynamic fiscal response to commodity price shocks",
+      "page": 156,
+      "level": 3
+    },
+    {
+      "title": "Fiscal management over commodity price cycles",
+      "page": 158,
+      "level": 2
+    },
+    {
+      "title": "Policy frameworks for fiscal management",
+      "page": 160,
+      "level": 2
+    },
+    {
+      "title": "Evolution of fiscal policy frameworks",
+      "page": 160,
+      "level": 3
+    },
+    {
+      "title": "Effectiveness of policy frameworks in mitigating the impact of commodity price shocks",
+      "page": 162,
+      "level": 3
+    },
+    {
+      "title": "Effectiveness of policy frameworks over commodity price cycles",
+      "page": 164,
+      "level": 3
+    },
+    {
+      "title": "Policy priorities",
+      "page": 166,
+      "level": 2
+    },
+    {
+      "title": "Need for policy action",
+      "page": 166,
+      "level": 3
+    },
+    {
+      "title": "Bolstering fiscal policy frameworks",
+      "page": 167,
+      "level": 3
+    },
+    {
+      "title": "Strengthening non-resource revenue mobilization",
+      "page": 173,
+      "level": 3
+    },
+    {
+      "title": "Promoting economic diversification",
+      "page": 173,
+      "level": 3
+    },
+    {
+      "title": "Annex 4.1 Fiscal policy volatility",
+      "page": 176,
+      "level": 2
+    },
+    {
+      "title": "Annex 4.2 Local projections",
+      "page": 176,
+      "level": 2
+    },
+    {
+      "title": "Annex 4.3 Commodity price cycles",
+      "page": 178,
+      "level": 2
+    },
+    {
+      "title": "References",
+      "page": 179,
+      "level": 2
+    },
+    {
+      "title": "Statistical Appendix",
+      "page": 185,
+      "level": 1,
+      "kind": "appendix"
+    },
+    {
+      "title": "Data and Forecast Conventions",
+      "page": 191,
+      "level": 1,
+      "kind": "appendix"
+    },
+    {
+      "title": "Selected Topics",
+      "page": 192,
+      "level": 1,
+      "kind": "appendix"
+    }
+  ]
+}

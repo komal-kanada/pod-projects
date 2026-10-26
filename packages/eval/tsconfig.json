@@ -1,0 +1,9 @@
+{
+  "extends": "@pod/config/tsconfig.nextjs.json",
+  "compilerOptions": {
+    "incremental": false,
+    "plugins": []
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}

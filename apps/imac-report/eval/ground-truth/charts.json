@@ -1,0 +1,24 @@
+[
+  {
+    "page": 2,
+    "title": "Progress toward carbon neutral",
+    "chartType": "waterfall",
+    "points": [
+      {
+        "series": "",
+        "label": "Baseline emissions",
+        "valueText": "445 kg"
+      },
+      {
+        "series": "",
+        "label": "Emissions reductions",
+        "valueText": "–99 kg"
+      },
+      {
+        "series": "",
+        "label": "iMac emissions",
+        "valueText": "346 kg"
+      }
+    ]
+  }
+]

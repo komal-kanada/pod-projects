@@ -1,0 +1,14 @@
+# apps/* and packages/* only — not apps/**, so nested packages inside an app
+# (e.g. interview-prep/brag-output/composition) never become workspaces.
+packages:
+  - "apps/*"
+  - "packages/*"
+
+# pnpm 10 blocks dependency install scripts unless listed here.
+onlyBuiltDependencies:
+  - unrs-resolver
+  - sharp
+# Install scripts we deliberately don't run (not needed at runtime).
+ignoredBuiltDependencies:
+  - "@google/genai"
+  - protobufjs

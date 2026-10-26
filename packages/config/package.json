@@ -1,0 +1,14 @@
+{
+  "name": "@pod/config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./tsconfig.nextjs.json": "./tsconfig.nextjs.json",
+    "./eslint/next": "./eslint/next.mjs"
+  },
+  "peerDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5"
+  }
+}

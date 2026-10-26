@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": "p01",
+      "question": "What is the growth outlook for South Asia in this report?",
+      "source": "provided",
+      "category": "fact",
+      "expected_answer": "Growth in South Asia (SAR) is expected to soften to 6.3 percent in 2026, mainly because of the conflict in the Middle East (higher energy prices, reduced oil and gas supplies, disrupted remittances and tourism), then pick up to an average of 7 percent a year in 2027–28. India is projected to grow 6.6 percent in FY2026/27; excluding India, regional growth rises to 4 percent in 2026 from 3.9 percent in 2025.",
+      "must_include": [
+        "6.3 percent in 2026",
+        "7 percent in 2027–28"
+      ],
+      "must_not_include": [
+        "Sub-Saharan Africa",
+        "East Asia and Pacific",
+        "Latin America",
+        "Europe and Central Asia",
+        "Pakistan",
+        "Afghanistan"
+      ],
+      "expected_pages": [
+        96,
+        97,
+        98
+      ],
+      "expected_sections": [
+        "Chapter 2. Regional Outlooks › South Asia"
+      ],
+      "notes": "Pakistan and Afghanistan are in the MNA region in this edition — naming them is region mixing. Table 2.9 is on p.98."
+    },
+    {
+      "id": "p02",
+      "question": "What does Chapter 3 say about sovereign debt in developing economies?",
+      "source": "provided",
+      "category": "summary",
+      "expected_answer": "Rising government debt in EMDEs leads to higher interest rates, higher debt-service payments and a greater likelihood of debt distress. Debt is positively associated with sovereign spreads and domestic yields, non-linearly (bigger rises at higher debt). The rise in debt since 2010 is associated with about 110 bp higher spreads and 30 bp higher yields; advanced-economy debt adds to the pressure; effects are larger with a history of default, low ratings, frontier status, short-term debt and weak governance. It calls for strengthening fiscal positions (revenue mobilisation, efficient spending, debt management, domestic debt markets, debt-for-development swaps).",
+      "must_include": [
+        "higher interest rates",
+        "non-linear",
+        "110 and 30 basis points",
+        "strengthening fiscal positions"
+      ],
+      "must_not_include": [
+        "sovereign wealth funds",
+        "commodity exporters"
+      ],
+      "expected_pages": [
+        107,
+        108,
+        109,
+        110,
+        111
+      ],
+      "expected_sections": [
+        "Chapter 3. A Rising Challenge: Sovereign Debt Levels and Interest Rates in EMDEs"
+      ],
+      "notes": "Must come from Chapter 3 (pp.107–138), not the Executive Summary’s recap (p.19). SWFs and commodity exporters are Chapter 4 — chapter mixing."
+    },
+    {
+      "id": "p03",
+      "question": "According to the executive summary, what are the main risks to the global outlook?",
+      "source": "provided",
+      "category": "summary",
+      "expected_answer": "Risks are skewed to the downside: a renewed escalation of hostilities or more prolonged disruptions to commodity flows could raise commodity prices, intensify inflation and food insecurity, trigger financial stress and lower growth — with severe energy disruptions plus financial stress, global growth could fall to 1.3 percent in 2026. Persistent trade policy uncertainty, geopolitical strains and weather-related shocks also pose material risks. On the upside, broader AI investment and adoption could lift activity.",
+      "must_include": [
+        "skewed to the downside",
+        "escalation of hostilities",
+        "1.3 percent",
+        "trade policy uncertainty"
+      ],
+      "must_not_include": [],
+      "expected_pages": [
+        19
+      ],
+      "expected_sections": [
+        "Executive Summary"
+      ],
+      "notes": "Must come from the Executive Summary (p.19), not Chapter 1’s Risks to the outlook (pp.52–55)."
+    },
+    {
+      "id": "oos01",
+      "question": "What was the population of Canada in 1850?",
+      "source": "added",
+      "category": "out_of_scope",
+      "expected_answer": null,
+      "must_include": [],
+      "expected_pages": [],
+      "expected_sections": [],
+      "notes": "Unrelated to the report — must refuse."
+    },
+    {
+      "id": "oos02",
+      "question": "Who won the 2022 FIFA World Cup?",
+      "source": "added",
+      "category": "out_of_scope",
+      "expected_answer": null,
+      "must_include": [],
+      "expected_pages": [],
+      "expected_sections": [],
+      "notes": "Unrelated to the report — must refuse."
+    },
+    {
+      "id": "oos03",
+      "question": "What is the best recipe for sourdough bread?",
+      "source": "added",
+      "category": "out_of_scope",
+      "expected_answer": null,
+      "must_include": [],
+      "expected_pages": [],
+      "expected_sections": [],
+      "notes": "Unrelated to the report — must refuse."
+    }
+  ]
+}

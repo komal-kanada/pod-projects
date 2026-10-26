@@ -1,0 +1,394 @@
+/* ---------------------------------------------------------------------------
+   POD design system — shared by every app in the monorepo.
+
+   These tokens are PrepSprint's (interview-prep/app/globals.css), lifted as-is
+   so all POD apps look like one family. Apps import this file right after
+   `@import "tailwindcss";` in their own globals.css.
+
+   Do not hardcode colours, radii, shadows or durations in components —
+   reach for these.
+   --------------------------------------------------------------------------- */
+
+/* Let Tailwind see the class names used inside this package's components. */
+@source "./";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------------------
+   PrepSprint design tokens
+   Single source of truth. Do not hardcode colours, radii, shadows or
+   durations in components — reach for these.
+   --------------------------------------------------------------------------- */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter), ui-sans-serif, -apple-system, "SF Pro Text",
+    "Segoe UI", system-ui, sans-serif;
+  --font-mono: var(--font-mono-stack);
+  --font-heading: var(--font-sans);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* PrepSprint additions */
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-text: var(--brand-text);
+  --color-brand-soft: var(--brand-soft);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-hairline: var(--hairline);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-positive: var(--positive);
+  --color-caution: var(--caution);
+
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* shadcn's scale, kept so its primitives stay coherent */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* PrepSprint radius scale (design-system section 2) */
+  --radius-tight: 10px;
+  --radius-panel: 16px;
+  --radius-surface: 22px;
+  --radius-feature: 28px;
+  --radius-hero: 32px;
+
+  /* Layered, never floating (design-system section 29) */
+  --shadow-hairline: 0 1px 2px -1px oklch(0.2 0.02 60 / 0.06);
+  --shadow-soft: 0 1px 2px -1px oklch(0.2 0.02 60 / 0.06),
+    0 4px 12px -6px oklch(0.2 0.02 60 / 0.08);
+  --shadow-raised: 0 1px 2px -1px oklch(0.2 0.02 60 / 0.08),
+    0 12px 32px -14px oklch(0.2 0.02 60 / 0.14);
+  --shadow-lifted: 0 2px 4px -2px oklch(0.2 0.02 60 / 0.1),
+    0 24px 56px -20px oklch(0.2 0.02 60 / 0.18);
+
+  /* iOS-like motion (design-system section 19) */
+  --ease-ios: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-ios-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --animate-rise: rise 0.28s var(--ease-ios) both;
+  --animate-fade: fade 0.2s var(--ease-ios) both;
+  --animate-sheen: sheen 1.6s var(--ease-ios-in-out) infinite;
+}
+
+:root {
+  --radius: 0.75rem;
+  --font-mono-stack: ui-monospace, SFMono-Regular, "SF Mono", Menlo,
+    monospace;
+
+  /* Warm, paper-like light mode — never pure clinical white */
+  --background: oklch(0.984 0.0035 75);
+  --foreground: oklch(0.205 0.006 60);
+  --surface: oklch(1 0 0);
+  --surface-2: oklch(0.968 0.004 75);
+  --hairline: oklch(0.905 0.005 75);
+
+  --card: oklch(1 0 0);
+  --card-foreground: var(--foreground);
+  --popover: oklch(1 0 0);
+  --popover-foreground: var(--foreground);
+
+  /* One restrained accent: warm coral. Actions and progress only. */
+  --brand: oklch(0.56 0.168 35);
+  --brand-foreground: oklch(0.995 0.008 60);
+  --brand-text: oklch(0.505 0.16 34);
+  --brand-soft: oklch(0.955 0.022 55);
+
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+
+  --ink: oklch(0.22 0.006 60);
+  --ink-foreground: oklch(0.985 0.003 75);
+
+  --secondary: oklch(0.962 0.004 75);
+  --secondary-foreground: oklch(0.26 0.006 60);
+  --muted: oklch(0.965 0.004 75);
+  --muted-foreground: oklch(0.525 0.008 65);
+  --accent: oklch(0.955 0.005 75);
+  --accent-foreground: oklch(0.24 0.006 60);
+
+  --destructive: oklch(0.545 0.19 25);
+  --destructive-foreground: oklch(0.99 0.005 60);
+  --positive: oklch(0.52 0.11 155);
+  --caution: oklch(0.6 0.13 75);
+
+  --border: oklch(0.908 0.005 75);
+  --input: oklch(0.9 0.005 75);
+  --ring: oklch(0.56 0.168 35);
+
+  --chart-1: oklch(0.56 0.168 35);
+  --chart-2: oklch(0.45 0.03 240);
+  --chart-3: oklch(0.63 0.09 75);
+  --chart-4: oklch(0.55 0.06 165);
+  --chart-5: oklch(0.7 0.02 60);
+
+  --sidebar: oklch(0.977 0.004 75);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--brand);
+  --sidebar-primary-foreground: var(--brand-foreground);
+  --sidebar-accent: oklch(0.95 0.005 75);
+  --sidebar-accent-foreground: oklch(0.24 0.006 60);
+  --sidebar-border: oklch(0.912 0.005 75);
+  --sidebar-ring: var(--brand);
+}
+
+.dark {
+  /* Near-black, never pure black (design-system section 4) */
+  --background: oklch(0.155 0.004 70);
+  --foreground: oklch(0.965 0.003 75);
+  --surface: oklch(0.198 0.005 70);
+  --surface-2: oklch(0.232 0.005 70);
+  --hairline: oklch(1 0 0 / 9%);
+
+  --card: oklch(0.198 0.005 70);
+  --card-foreground: var(--foreground);
+  --popover: oklch(0.212 0.005 70);
+  --popover-foreground: var(--foreground);
+
+  --brand: oklch(0.715 0.155 44);
+  --brand-foreground: oklch(0.18 0.03 40);
+  --brand-text: oklch(0.775 0.13 50);
+  --brand-soft: oklch(0.28 0.045 45);
+
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+
+  --ink: oklch(0.96 0.003 75);
+  --ink-foreground: oklch(0.18 0.005 60);
+
+  --secondary: oklch(0.252 0.005 70);
+  --secondary-foreground: var(--foreground);
+  --muted: oklch(0.248 0.005 70);
+  --muted-foreground: oklch(0.715 0.006 75);
+  --accent: oklch(0.262 0.005 70);
+  --accent-foreground: var(--foreground);
+
+  --destructive: oklch(0.68 0.17 24);
+  --destructive-foreground: oklch(0.16 0.02 25);
+  --positive: oklch(0.72 0.13 158);
+  --caution: oklch(0.78 0.12 80);
+
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 14%);
+  --ring: oklch(0.715 0.155 44);
+
+  --chart-1: oklch(0.715 0.155 44);
+  --chart-2: oklch(0.68 0.05 240);
+  --chart-3: oklch(0.78 0.1 80);
+  --chart-4: oklch(0.72 0.08 165);
+  --chart-5: oklch(0.6 0.015 70);
+
+  --sidebar: oklch(0.175 0.004 70);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--brand);
+  --sidebar-primary-foreground: var(--brand-foreground);
+  --sidebar-accent: oklch(0.252 0.005 70);
+  --sidebar-accent-foreground: var(--foreground);
+  --sidebar-border: oklch(1 0 0 / 9%);
+  --sidebar-ring: var(--brand);
+
+  --shadow-hairline: 0 1px 2px -1px oklch(0 0 0 / 0.5);
+  --shadow-soft: 0 1px 2px -1px oklch(0 0 0 / 0.5),
+    0 4px 12px -6px oklch(0 0 0 / 0.55);
+  --shadow-raised: 0 1px 2px -1px oklch(0 0 0 / 0.55),
+    0 12px 32px -14px oklch(0 0 0 / 0.6);
+  --shadow-lifted: 0 2px 4px -2px oklch(0 0 0 / 0.6),
+    0 24px 56px -20px oklch(0 0 0 / 0.7);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply font-sans;
+    -webkit-tap-highlight-color: transparent;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Visible, non-colour-only focus (design-system section 26) */
+  :focus-visible {
+    @apply outline-ring/70 outline-2 outline-offset-2;
+  }
+
+  ::selection {
+    background: var(--brand-soft);
+    color: var(--foreground);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-balance;
+    letter-spacing: -0.018em;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Editorial eyebrow label — the one place small caps are allowed */
+  .eyebrow {
+    @apply text-[0.6875rem] font-medium tracking-[0.1em] text-muted-foreground uppercase;
+  }
+
+  /* Big confident numerals: "45 min", "68%" */
+  .numeral {
+    @apply font-medium tracking-[-0.03em] tabular-nums;
+  }
+
+  /* Layered surface: thin border + soft shadow, never a floating blob */
+  .surface {
+    @apply border-hairline bg-surface rounded-panel border shadow-soft;
+  }
+
+  /* Barely-there liquid treatment. Must still look right with blur off. */
+  .liquid {
+    @apply border-hairline border bg-surface/80 shadow-soft backdrop-blur-xl;
+    background-image: linear-gradient(
+      to bottom,
+      oklch(1 0 0 / 0.06),
+      transparent 40%
+    );
+  }
+
+  .press {
+    @apply transition-transform duration-150 ease-[var(--ease-ios)] active:scale-[0.98];
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes sheen {
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.85;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Answer prose — markdown answers in the RAG apps. Reading measure, calm
+   rhythm, tables that scroll instead of overflowing.
+   --------------------------------------------------------------------------- */
+@layer components {
+  .answer-prose {
+    @apply text-[1rem] leading-[1.7];
+  }
+  .answer-prose > * + * {
+    @apply mt-3.5;
+  }
+  .answer-prose ul {
+    @apply list-disc space-y-1.5 pl-5;
+  }
+  .answer-prose ol {
+    @apply list-decimal space-y-1.5 pl-5;
+  }
+  .answer-prose li::marker {
+    @apply text-muted-foreground;
+  }
+  .answer-prose strong {
+    @apply font-semibold;
+  }
+  .answer-prose h1,
+  .answer-prose h2,
+  .answer-prose h3 {
+    @apply mt-5 text-[1rem] font-semibold;
+  }
+  .answer-prose table {
+    @apply w-full border-collapse text-[0.875rem];
+  }
+  .answer-prose th {
+    @apply bg-surface-2 px-3 py-2 text-left font-medium;
+  }
+  .answer-prose td {
+    @apply border-hairline border-t px-3 py-2 align-top;
+  }
+  .answer-prose code {
+    @apply bg-surface-2 rounded-[6px] px-1 py-0.5 font-mono text-[0.875em];
+  }
+
+  /* Source excerpts: the report's own words, set apart from the answer. */
+  .excerpt {
+    @apply text-[0.875rem] leading-[1.65] whitespace-pre-line;
+  }
+  .excerpt table {
+    @apply w-full border-collapse text-[0.8125rem];
+  }
+  .excerpt th,
+  .excerpt td {
+    @apply border-hairline border px-2 py-1 text-left align-top;
+  }
+}

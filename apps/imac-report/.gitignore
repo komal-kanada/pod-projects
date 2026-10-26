@@ -1,0 +1,3 @@
+# Render/extraction cache — rebuildable. Published page images and crops in
+# public/report/ ARE committed (the app serves them).
+/data/cache/

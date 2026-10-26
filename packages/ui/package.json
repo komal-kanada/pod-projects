@@ -1,0 +1,65 @@
+{
+  "name": "@pod/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    "./styles.css": "./src/styles.css",
+    "./projects": "./src/projects.ts",
+    "./cn": "./src/cn.ts",
+    "./theme-provider": "./src/theme-provider.tsx",
+    "./theme-toggle": "./src/theme-toggle.tsx",
+    "./pod-mark": "./src/pod-mark.tsx",
+    "./pod-header": "./src/pod-header.tsx",
+    "./project-card": "./src/project-card.tsx",
+    "./project-placeholder": "./src/project-placeholder.tsx",
+    "./status-pill": "./src/status-pill.tsx",
+    "./rag/app-shell": "./src/rag/app-shell.tsx",
+    "./rag/nav-links": "./src/rag/nav-links.tsx",
+    "./rag/button": "./src/rag/button.tsx",
+    "./rag/question-form": "./src/rag/question-form.tsx",
+    "./rag/sample-questions": "./src/rag/sample-questions.tsx",
+    "./rag/answer-markdown": "./src/rag/answer-markdown.tsx",
+    "./rag/citation-badge": "./src/rag/citation-badge.tsx",
+    "./rag/trace-panel": "./src/rag/trace-panel.tsx",
+    "./rag/setup-notice": "./src/rag/setup-notice.tsx",
+    "./rag/states": "./src/rag/states.tsx",
+    "./rag/select": "./src/rag/select.tsx",
+    "./rag/tabs": "./src/rag/tabs.tsx",
+    "./rag/use-ndjson-stream": "./src/rag/use-ndjson-stream.ts",
+    "./rag/page-intro": "./src/rag/page-intro.tsx",
+    "./rag/setup-state": "./src/rag/setup-state.tsx"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cn": "^0.3.0",
+    "lucide-react": "^1.47.0",
+    "next-themes": "^0.4.6",
+    "@pod/rag": "workspace:*",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "peerDependencies": {
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@pod/config": "workspace:*",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "next": "16.3.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "typescript": "^5"
+  }
+}

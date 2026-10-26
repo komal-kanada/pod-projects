@@ -1,0 +1,26 @@
+{
+  "name": "@pod/eval",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@pod/ai": "workspace:*",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@pod/config": "workspace:*",
+    "@types/node": "^22",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.5",
+    "typescript": "^5",
+    "vitest": "^5.0.4"
+  }
+}

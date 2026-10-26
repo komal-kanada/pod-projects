@@ -1,0 +1,2 @@
+# Parse cache (Gemini page markdown, text layer, tree) — rebuildable, can be large.
+/data/cache/
